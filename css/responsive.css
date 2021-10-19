@@ -1,0 +1,775 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 280px) and (max-width: 319px){
+  
+  /* CSS */
+  .header-section{   
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+  }
+  .main-menu{
+    margin-bottom: 0px;
+    background: transparent;
+    padding: 20px 0px;
+  }
+  .navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+  }
+  .fa{
+    color: #fff;
+    border-color: #fff;
+  }
+  .brand {
+    position: absolute;
+    left: 0;
+    margin-left: 0px !important;  /* 50% of your logo width */
+  }
+  .main-menu .navbar-light .navbar-nav .nav-link{
+    font-size: .8rem;
+    letter-spacing: .07em;
+    font-weight: 600;
+    color: #FFFFFF;  
+ }
+ .main-menu .navbar-light .navbar-nav .nav-link.active{
+  font-size: .8rem;
+  left: 0;
+  color: #FFFFFF;
+ }
+ .banner{
+  width: 100%;
+  padding: 40px 0px;
+}
+.banner h1 {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+.banner p {
+  font-size: 15px;
+  line-height: 26px;
+  text-align: left;
+  margin-top: 40px;
+}
+.inner-btn {
+  padding: 20px 0px 0px 0px;
+}
+.inner-btn .btn-info {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+.main-menu .nav {
+  width: 100%;
+}
+.project-section {
+  width: 100%;
+  padding: 60px 0px;
+  margin-top: 10px;
+}
+.project-section .project-info h1{
+  font-size: 27px;
+  line-height: 37px;
+}  
+.product-section .product .pro{
+  width: 100%;
+  padding: 10px 0px;
+  cursor: pointer;
+  box-sizing: content-box;
+  margin: 10px 0px;
+  text-align: center;
+}
+.product-section .product .pro img{
+  width: 200px;
+  height: 200px;
+}
+.pro-info {
+  padding: 10px 0;
+  padding-bottom: 20px;
+}
+.product-section .product .pro h3{
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.product-section .product .pro p{
+  font-size: 15px;
+  text-align: center;
+}
+.project-section .project-info p{
+  margin-top: 30px;
+  font-size: 14px;
+}
+.project-section .project-info .inner-btn .btn-info{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+.footer-section {
+  padding: 40px 0px;
+}
+.footer-section .foot-info h5{
+  font-size: 17px;
+}
+.footer-section .foot-info p{
+  font-size: 14px;
+}
+.footer-section .footer-links{
+  margin-bottom: 30px;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    .header-section{   
+      background-size: cover;
+      width: 100%;
+      height: 500px;
+    }
+    .main-menu{
+      margin-bottom: 0px;
+      background: transparent;
+      padding: 20px 0px;
+    }
+    .navbar-light .navbar-toggler {
+      color: #fff;
+      border-color: #fff;
+    }
+    .fa{
+      color: #fff;
+      border-color: #fff;
+    }
+    .brand {
+      position: absolute;
+      left: 0;
+      margin-left: 0px !important;  /* 50% of your logo width */
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+      font-size: .7rem;
+      letter-spacing: .07em;
+      font-weight: 500;
+      transition: 1s;
+      left: 0;  
+   }
+   .main-menu .navbar-light .navbar-nav .nav-link.active{
+    font-size: .7rem;
+    left: 0;
+   }
+   .banner{
+    width: 100%;
+    padding: 40px 0px;
+  }
+  .banner h1 {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+  }
+  .banner p {
+    font-size: 15px;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 40px;
+  }
+  .inner-btn {
+    padding: 20px 0px 0px 0px;
+  }
+  .inner-btn .btn-info {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 10px 25px;
+  }
+  .main-menu .nav {
+    width: 100%;
+  }
+  .project-section {
+    width: 100%;
+    padding: 60px 0px;
+    margin-top: 10px;
+  }
+  .project-section .project-info h1{
+    font-size: 28px;
+    line-height: 38px;
+  }  
+  .product-section .product .pro{
+    width: 100%;
+    padding: 10px 0px;
+    cursor: pointer;
+    box-sizing: content-box;
+    margin: 10px 0px;
+    text-align: center;
+  }
+  .product-section .product .pro img{
+    width: 250px;
+    height: 250px;
+  }
+  .pro-info {
+    padding: 10px 0;
+    padding-bottom: 20px;
+  }
+  .product-section .product .pro h3{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .product-section .product .pro p{
+    font-size: 15px;
+    text-align: center;
+  }
+  .project-section .project-info p{
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .project-section .project-info .inner-btn .btn-info{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 10px 25px;
+  }
+  .footer-section {
+    padding: 40px 0px;
+  }
+  .footer-section .foot-info h5{
+    font-size: 17px;
+  }
+  .footer-section .foot-info p{
+    font-size: 14px;
+  }
+  .footer-section .footer-links{
+    margin-bottom: 30px;
+  }
+    
+}
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .header-section{   
+      background-size: cover;
+      width: 100%;
+      height: 500px;
+    }
+    .main-menu{
+      margin-bottom: 0px;
+      background: transparent;
+      padding: 40px 0px;
+    }
+    .navbar-light .navbar-toggler {
+      color: #fff;
+      border-color: #fff;
+    }
+    .fa{
+      color: #fff;
+      border-color: #fff;
+    }
+    .brand {
+      position: absolute;
+      left: 0;
+      margin-left: 0px !important;  /* 50% of your logo width */
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+      font-size: .8rem;
+      letter-spacing: .07em;
+      font-weight: 500;
+      transition: 1s;
+      left: 0;  
+   }
+   .main-menu .navbar-light .navbar-nav .nav-link.active{
+    font-size: .8rem;
+    left: 0;
+   }
+   .banner{
+    width: 100%;
+    padding: 60px 0px;
+  }
+  .banner h1 {
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+  }
+  .banner p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .inner-btn {
+    padding: 20px 0px 0px 0px;
+  }
+  .inner-btn .btn-info {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 10px 20px;
+  }
+  .main-menu .nav {
+    width: 100%;
+  }
+  .project-section {
+    width: 100%;
+    padding: 60px 0px;
+    margin-top: 10px;
+  }
+  .project-section .project-info h1{
+    font-size: 28px;
+    line-height: 38px;
+  }  
+  .product-section .product .pro{
+    width: 100%;
+    cursor: pointer;
+    box-sizing: content-box;
+  }
+  .product-section .product .pro img{
+    width: 300px;
+    height: 300px;
+  }
+  .pro-info {
+    padding: 10px 0;
+    padding-bottom: 20px;
+  }
+  .product-section .product .pro h3{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+
+  }
+  .product-section .product .pro p{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 15px;
+  }
+  .project-section .project-info p{
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .project-section .project-info .inner-btn .btn-info{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 10px 25px;
+  }
+  .footer-section {
+    padding: 40px 0px;
+  }
+  .footer-section .foot-info h5{
+    font-size: 17px;
+  }
+  .footer-section .foot-info p{
+    font-size: 14px;
+  }
+  .footer-section .footer-links{
+    margin-bottom: 30px;
+  }
+}
+  
+  
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .header-section{   
+      background-size: cover;
+      width: 100%;
+      height: 500px;
+    }
+    .main-menu{
+      margin-bottom: 0px;
+      background: transparent;
+      padding: 0px 0px;
+    }
+    .navbar-light .navbar-toggler {
+      color: #fff;
+      border-color: #fff;
+    }
+    .fa{
+      color: #fff;
+      border-color: #fff;
+    }
+    .brand {
+      position: absolute;
+      left: 0;
+      margin-left: 0px !important;  /* 50% of your logo width */
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+      font-size: .8rem;
+      letter-spacing: .07em;
+      font-weight: 500;
+      transition: 1s;
+      left: 0;  
+   }
+   .main-menu .navbar-light .navbar-nav .nav-link.active{
+    font-size: .8rem;
+    left: 0;
+   }
+   .banner{
+    width: 100%;
+    padding: 60px 0px;
+  }
+  .banner h1 {
+    font-size: 44px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+  }
+  .banner p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .inner-btn {
+    padding: 40px 0px 0px 0px;
+  }
+  .inner-btn .btn-info {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 10px 35px;
+  }
+  .main-menu .nav {
+    width: 100%;
+  }
+  .project-section {
+    width: 100%;
+    padding: 80px 0px;
+    margin-top: 10px;
+  }
+  .project-section .project-info h1{
+    font-size: 28px;
+    line-height: 38px;
+  }  
+  .product-section .product .pro{
+    width: 100%;
+    cursor: pointer;
+    box-sizing: content-box;
+    text-align: center;
+  }
+  .product-section .product .pro img{
+    width: 300px;
+    height: 300px;
+  }
+  .pro-info {
+    padding: 10px 0;
+    padding-bottom: 20px;
+  }
+  .product-section .product .pro h3{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+
+  }
+  .product-section .product .pro p{
+    font-size: 16px;
+    text-align: center;
+  }
+  .project-section .project-info p{
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .project-section .project-info .inner-btn .btn-info{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 10px 35px;
+  }
+  .footer-section {
+    padding: 80px 0px;
+  }
+  .footer-section .foot-info h5{
+    font-size: 17px;
+  }
+  .footer-section .foot-info p{
+    font-size: 14px;
+  }
+  .footer-section .footer-links{
+    margin-bottom: 30px;
+  }
+  }
+  
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    .header-section{   
+      background-size: cover;
+      width: 100%;
+      height: 500px;
+    }
+    .main-menu{
+      margin-bottom: 0px;
+      background: transparent;
+      padding: 0px 0px;
+    }
+    .navbar-light .navbar-toggler {
+      color: #fff;
+      border-color: #fff;
+    }
+    .fa{
+      color: #fff;
+      border-color: #fff;
+    }
+    .brand {
+      position: absolute;
+      left: 0;
+      margin-left: 0px !important;  /* 50% of your logo width */
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+      font-size: .8rem;
+      letter-spacing: .07em;
+      font-weight: 500;
+      transition: 1s;
+      left: 0;  
+   }
+   .main-menu .navbar-light .navbar-nav .nav-link.active{
+    font-size: .8rem;
+    left: 0;
+   }
+   .banner{
+    width: 100%;
+    padding: 60px 0px;
+  }
+  .banner h1 {
+    font-size: 44px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+  }
+  .banner p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .inner-btn {
+    padding: 40px 0px 0px 0px;
+  }
+  .inner-btn .btn-info {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 10px 35px;
+  }
+  .main-menu .nav {
+    width: 100%;
+  }
+  .project-section {
+    width: 100%;
+    padding: 80px 0px;
+    margin-top: 10px;
+  }
+  .project-section .project-info h1{
+    font-size: 28px;
+    line-height: 38px;
+  }  
+  .product-section .product .pro{
+    width: 100%;
+    cursor: pointer;
+    box-sizing: content-box;
+    text-align: center;
+  }
+  .product-section .product .pro img{
+    width: 300px;
+    height: 300px;
+  }
+  .pro-info {
+    padding: 10px 0;
+    padding-bottom: 20px;
+  }
+  .product-section .product .pro h3{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+
+  }
+  .product-section .product .pro p{
+    font-size: 16px;
+    text-align: center;
+  }
+  .project-section .project-info p{
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .project-section .project-info .inner-btn .btn-info{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 10px 35px;
+  }
+  .footer-section {
+    padding: 80px 0px;
+  }
+  .footer-section .foot-info h5{
+    font-size: 17px;
+  }
+  .footer-section .foot-info p{
+    font-size: 14px;
+  }
+  .footer-section .footer-links{
+    margin-bottom: 30px;
+  }
+  }
+  
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  /*  */
+  @media (min-width: 1024px) and (max-width: 1204px) {
+    
+    /* CSS 
+    .header-section{   
+      background-size: cover;
+      width: 100%;
+      height: 500px;
+    }
+    .main-menu{
+      margin-bottom: 0px;
+      padding: 40px 0px;
+    }
+    .navbar-light .navbar-toggler {
+      color: #fff;
+      border-color: #fff;
+    }
+    .fa{
+      color: #fff;
+      border-color: #fff;
+    }
+    .brand {
+      position: absolute;
+      left: 0;
+      margin-left: 0px !important;  
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+      font-size: .8rem;
+      letter-spacing: .07em;
+      font-weight: 500;
+      transition: 1s;
+      left: 0;  
+   }
+   .main-menu .navbar-light .navbar-nav .nav-link.active{
+    font-size: .8rem;
+    left: 0;
+   }
+   .banner{
+    width: 100%;
+    padding: 80px 0px;
+  }
+  .banner h1 {
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+  }
+  .banner p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .inner-btn {
+    padding: 40px 0px 0px 0px;
+  }
+  .inner-btn .btn-info {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 10px 35px;
+  }
+  .main-menu .nav {
+    width: 100%;
+  }
+  .project-section {
+    width: 100%;
+    padding: 80px 0px;
+    margin-top: 10px;
+  }
+  .project-section .project-info h1{
+    font-size: 28px;
+    line-height: 38px;
+  }  
+  .product-section .product .pro{
+    width: 100%;
+    cursor: pointer;
+    box-sizing: content-box;
+    text-align: center;
+  }
+  .product-section .product .pro img{
+    width: 300px;
+    height: 300px;
+  }
+  .pro-info {
+    padding: 10px 0;
+    padding-bottom: 20px;
+  }
+  .product-section .product .pro h3{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+
+  }
+  .product-section .product .pro p{
+    font-size: 16px;
+    text-align: center;
+  }
+  .project-section .project-info p{
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .project-section .project-info .inner-btn .btn-info{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 10px 35px;
+  }
+  .footer-section {
+    padding: 80px 0px;
+  }
+  .footer-section .foot-info h5{
+    font-size: 17px;
+  }
+  .footer-section .foot-info p{
+    font-size: 14px;
+  }
+  .footer-section .footer-links{
+    margin-bottom: 30px;
+  }*/
+  }
+  
